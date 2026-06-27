@@ -12,16 +12,3 @@
 
 5. Realizar um Fork e Pull Request; [ ]
 
-
-echo "# CursoGitHub" >> README.md
-git init
-git add README.md
-git commit -m "first commit"
-git branch -M main
-git remote add origin https://github.com/ThallesAlexandrevieira/CursoGitHub.git
-git push -u origin main
-
-
-git remote add origin https://github.com/ThallesAlexandrevieira/CursoGitHub.git
-git branch -M main
-git push -u origin main
