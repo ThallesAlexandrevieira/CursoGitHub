@@ -1,37 +1,25 @@
-/* style.css */
 body {
-  background-color: #ade6bd; /* azul claro */
   font-family: Arial, sans-serif;
   margin: 0;
-  padding: 0;
+  color: #333;
 }
-body {
-    margin: 0;
-    font-family: Arial, sans-serif;
+.hero {
+  background: url('produto.jpg') no-repeat center center/cover;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white;
 }
-
-.navbar {
-    background-color: #333;
-    padding: 10px;
+.btn {
+  background: black;
+  color: white;
+  padding: 12px 24px;
+  text-decoration: none;
+  border-radius: 4px;
 }
-
-.navbar ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-}
-
-.navbar li {
-    margin-right: 20px;
-}
-
-.navbar a {
-    color: white;
-    text-decoration: none;
-    font-weight: bold;
-}
-
-.navbar a:hover {
-    text-decoration: underline;
+section {
+  padding: 60px 20px;
+  text-align: center;
 }
