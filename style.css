@@ -4,7 +4,7 @@ body {
   color: #333;
 }
 .hero {
-  background: url('guapimirim.jpg') no-repeat center center/cover;
+  background: url('C:\Users\vieitha\OneDrive - Digicorner\Thalles pes\Github\Projetos\CursoGitHub\Floresta.png') no-repeat center center/cover;
   height: 100vh;
   display: flex;
   align-items: center;
@@ -23,7 +23,7 @@ section {
   padding: 60px 20px;
   text-align: center;
 }
-.hero {
+/* .hero {
   background: url('floresta-guapimirim.png') no-repeat center center/cover;
   height: 100vh;
   display: flex;
@@ -31,5 +31,4 @@ section {
   justify-content: center;
   text-align: center;
   color: white;
-}
-  
+}*/
