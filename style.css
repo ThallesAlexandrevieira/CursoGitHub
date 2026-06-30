@@ -4,11 +4,7 @@ body {
   color: #333;
 }
 .hero {
-<<<<<<< HEAD
-  background: url("../Imagens/Floresta03.png") no-repeat center center/cover;
-=======
   background: url("../CursoGitHub/imagens/Floresta03.png") no-repeat center center/cover;
->>>>>>> 9cec79c083c84f0beb7b9d2ee2b50b091ae49e6e
   height: 100vh;
   display: flex;
   align-items: center;
