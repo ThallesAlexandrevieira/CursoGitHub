@@ -5,10 +5,62 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Turismo Ecológico em Guapimirim</title>
   <link rel="stylesheet" href="style.css">
+  <style>
+    /* Hero Section */
+    .hero {
+      position: relative;
+      height: 100vh;
+      background-image: url("../Imagens/Floresta02.png"); /* coloque aqui sua imagem */
+      background-size: cover;
+      background-position: center;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      color: #fff;
+    }
+    .hero-overlay {
+      position: absolute;
+      top: 0; left: 0; right: 0; bottom: 0;
+      background: rgba(0,0,0,0.4);
+    }
+    .hero-content {
+      position: relative;
+      z-index: 1;
+      max-width: 600px;
+      padding: 20px;
+    }
+    .btn {
+      background: #28a745;
+      padding: 12px 24px;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 6px;
+      transition: background 0.3s;
+      display: inline-block;
+      margin-top: 20px;
+    }
+    .btn:hover {
+      background: #218838;
+    }
+    /* Responsividade */
+    @media (max-width: 768px) {
+      .hero {
+        height: 70vh;
+      }
+      .hero-content h1 {
+        font-size: 1.8rem;
+      }
+      .hero-content p {
+        font-size: 1rem;
+      }
+    }
+  </style>
 </head>
 <body>
   <!-- Hero Section -->
   <section class="hero">
+    <div class="hero-overlay"></div>
     <div class="hero-content">
       <h1>Turismo Ecológico em Guapimirim</h1>
       <p>Descubra trilhas, cachoeiras e aventuras na Serra dos Órgãos.</p>
@@ -46,5 +98,3 @@
   </section>
 </body>
 </html>
-
-    
