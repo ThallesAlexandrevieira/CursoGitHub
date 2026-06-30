@@ -4,7 +4,7 @@ body {
   color: #333;
 }
 .hero {
-  background: url("../imagens/Floresta03.png") no-repeat center center/cover;
+  /*background: url("../imagens/Floresta03.png") no-repeat center center/cover;
   height: 100vh;
   display: flex;
   align-items: center;
@@ -12,7 +12,7 @@ body {
   text-align: center;
 
   color: white;
-}
+}*/
 .btn {
   background: rgb(28, 95, 28);
   color: rgb(255, 255, 255);
