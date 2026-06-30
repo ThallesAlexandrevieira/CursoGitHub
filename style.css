@@ -4,24 +4,29 @@ body {
   color: #333;
 }
 .hero {
+<<<<<<< HEAD
   background: url("../Imagens/Floresta03.png") no-repeat center center/cover;
+=======
+  background: url("../CursoGitHub/imagens/Floresta03.png") no-repeat center center/cover;
+>>>>>>> 9cec79c083c84f0beb7b9d2ee2b50b091ae49e6e
   height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
   text-align: center;
+
   color: white;
 }
 .btn {
-  background: rgb(39, 163, 39);
-  color: white;
+  background: rgb(28, 95, 28);
+  color: rgb(255, 255, 255);
   padding: 12px 24px;
   text-decoration: none;
   border-radius: 4px;
 }
 section {
   padding: 60px 20px;
-  text-align: center;
+  text-align: center; 
 }
 /* .hero {
   background: url('floresta-guapimirim.png') no-repeat center center/cover;
@@ -32,3 +37,8 @@ section {
   text-align: center;
   color: white;
 }*/
+
+title {
+align-items: below;
+
+}
